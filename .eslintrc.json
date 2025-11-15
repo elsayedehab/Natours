@@ -1,0 +1,40 @@
+/*{
+  "extends": ["airbnb", "prettier", "plugin:node/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
+    "no-console": "error",
+    "consistent-return": "error",
+    "func-names": "error",
+    "object-shorthand": "error",
+    "no-process-exit": "error",
+    "no-param-reassign": ["error", { "props": true }],
+    "no-return-await": "error",
+    "no-underscore-dangle": "error",
+    "class-methods-use-this": "error",
+    "prefer-destructuring": ["error", { "object": true, "array": true }],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "eqeqeq": ["error", "always"],
+    "curly": ["error", "all"],
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-template": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "no-alert": "error",
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "no-new-func": "error",
+    "dot-notation": "error",
+    "yoda": "error"
+  },
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  }
+}
+*/
